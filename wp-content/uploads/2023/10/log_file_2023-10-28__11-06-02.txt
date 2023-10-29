@@ -1,0 +1,157 @@
+
+---Downloaded files---
+The import files for: Educavo LearnPress Demo Import were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://website.esaa.org.eg
+Data file = /home/website.esaa.org.eg/public_html/wp-content/uploads/2023/10/demo-content-import-file_2023-10-28__11-06-02.xml
+Widget file = /home/website.esaa.org.eg/public_html/wp-content/uploads/2023/10/demo-widgets-import-file_2023-10-28__11-06-02.json
+Customizer file = not defined!
+Redux files:
+educavo_option -> /home/website.esaa.org.eg/public_html/wp-content/uploads/2023/10/demo-redux-import-file_0-2023-10-28__11-06-02.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "newsletter": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+RS Recent Post Widget - Recent Posts - Imported
+Categories - No Title - Imported
+Tag Cloud - Popular Tags - Imported
+
+Offcanvas Sidebar : 
+
+Text - No Title - Imported
+Gallery - No Title - Imported
+Image - No Title - Imported
+RS Social Icon Widget - No Title - Imported
+
+Footer Top Subscribe : 
+
+mc4wp_form_widget - No Title - Site does not support widget
+
+Footer One Widget Area : 
+
+Text - No Title - Imported
+RS Social Icon Widget - No Title - Imported
+
+Footer Two Widget Area : 
+
+RS Contact Info - Address - Imported
+
+Footer Three Widget Area : 
+
+Navigation Menu - Courses - Imported
+
+Footer Four Widget Area : 
+
+RS Recent Post Widget - No Title - Imported
+
+Copyright Menu : 
+
+Navigation Menu - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: educavo_option finished successfully!
+
+---ocdi/after_import---
+

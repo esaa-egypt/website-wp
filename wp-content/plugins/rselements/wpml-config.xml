@@ -1,0 +1,467 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">elementor_library</custom-type>
+	</custom-types>
+	<elementor-widgets>
+		<widget name="rs-heading">
+			<conditions>
+				<condition key="widgetType">rs-heading</condition>
+			</conditions>
+			<fields>
+				<field type="RS Heading: Heading Text" editor_type="LINE">title</field>
+				<field type="RS Heading: Sub Heading Text" editor_type="LINE">subtitle</field>
+				<field type="RS Heading: Watermark Text" editor_type="LINE">watermark</field>
+				<field type="RS Heading: content" editor_type="VISUAL">content</field>
+			</fields>
+		</widget>
+		<widget name="rs-iconbox">
+			<conditions>
+				<condition key="widgetType">rs-iconbox</condition>
+			</conditions>
+			<fields>
+				<field type="RS Icon Box: Box Title" editor_type="LINE">title</field>
+				<field type="RS Icon Box: Link" editor_type="LINK">title_link</field>
+				<field type="RS Icon Box: Prefix Text" editor_type="LINE">title_prefix_text</field>
+				<field type="RS Icon Box: Box Text" editor_type="VISUAL">text</field>
+				<field type="RS Icon Box: Badge Title" editor_type="LINE">badge_title</field>
+				<field type="RS Icon Box: Icon Box Button Text" editor_type="LINE">services_btn_text</field>
+				<field type="RS Icon Box: Icon Box Button Link" editor_type="LINK">services_btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-service-grid">
+			<conditions>
+				<condition key="widgetType">rs-service-grid</condition>
+			</conditions>
+			<fields>
+				<field type="RS Services Grid: Serial Number" editor_type="LINE">serial_text</field>
+				<field type="RS Services Grid: Services Title" editor_type="LINE">title</field>
+				<field type="RS Services Grid: Title Link" editor_type="LINK">title_link</field>
+				<field type="RS Services Grid: Services Text" editor_type="VISUAL">text</field>
+				<field type="RS Services Grid: Prefix Text" editor_type="LINE">title_prefix_text</field>
+				<field type="RS Services Grid: Services Button Text" editor_type="LINE">services_btn_text</field>
+				<field type="RS Services Grid: Services Button Link" editor_type="LINK">services_btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-progress">
+			<conditions>
+				<condition key="widgetType">rs-progress</condition>
+			</conditions>
+			<fields>
+				<field type="RS Progress Bar: Title Text" editor_type="LINE">rs_progress_inner_text</field>
+			</fields>
+		</widget>
+		<widget name="rsblog-slider">
+			<conditions>
+				<condition key="widgetType">rsblog-slider</condition>
+			</conditions>
+			<fields>
+				<field type="RS Posts Slider: Blog Button Text" editor_type="LINE">blog_btn_text</field>
+			</fields>
+		</widget>
+		<widget name="rs-animated-heading">
+			<conditions>
+				<condition key="widgetType">rs-animated-heading</condition>
+			</conditions>
+			<fields>
+				<field type="RS Animated Heading: Normal Text" editor_type="LINE">title</field>
+				<field type="RS Animated Heading: Animated Text" editor_type="VISUAL">animated_text</field>
+				<field type="RS Animated Heading: content" editor_type="VISUAL">Content</field>
+			</fields>
+		</widget>
+		<widget name="rs-tab-advanced">
+            <conditions>
+                <condition key="widgetType">rs-tab-advanced</condition>
+            </conditions>
+            <fields-in-item items_of="tabs">
+                <field type="RS Tab: Title & Description" editor_type="LINE">tab_title</field>
+				<field type="RS Tab: Content" editor_type="VISUAL">tab_content</field>
+            </fields-in-item>
+        </widget>
+		<widget name="rs-apps-screenshots">
+            <conditions>
+                <condition key="widgetType">rs-apps-screenshots</condition>
+            </conditions>
+            <fields-in-item items_of="logo_list">
+                <field type="Apps Screenshots: Brand Name" editor_type="LINE">name</field>
+                <field type="Apps Screenshots: Link" editor_type="LINK">link</field>
+				<field type="Apps Screenshots: Brand Description" editor_type="AREA">description</field>
+            </fields-in-item>
+        </widget>
+		<widget name="rsblockquote">
+			<conditions>
+				<condition key="widgetType">rsblockquote</condition>
+			</conditions>
+			<fields>
+				<field type="RS Blockquote: Blockquote Content" editor_type="VISUAL">block_content</field>
+				<field type="RS Blockquote: Author" editor_type="LINE">author_title</field>
+			</fields>
+		</widget>
+		<widget name="rsblog">
+			<conditions>
+				<condition key="widgetType">rsblog</condition>
+			</conditions>
+			<fields>
+				<field type="RS Posts Grid: Blog Button Text" editor_type="LINE">blog_btn_text</field>
+			</fields>
+		</widget>
+		<widget name="rsblog-slider">
+			<conditions>
+				<condition key="widgetType">rsblog-slider</condition>
+			</conditions>
+			<fields>
+				<field type="RS Posts Slider: Blog Button Text" editor_type="LINE">blog_btn_text</field>
+			</fields>
+		</widget>
+		<widget name="rs-business-hour">
+            <conditions>
+                <condition key="widgetType">rs-business-hour</condition>
+            </conditions>
+            <fields-in-item items_of="rs_business_hour_list">
+                <field type="RS Business Hour: Day" editor_type="LINE">business_day</field>
+                <field type="RS Business Hour: Time" editor_type="LINE">business_time</field>
+            </fields-in-item>
+        </widget>
+		<widget name="rs-button">
+			<conditions>
+				<condition key="widgetType">rs-button</condition>
+			</conditions>
+			<fields>
+				<field type="RS Button: Button Text" editor_type="LINE">btn_text</field>
+				<field type="RS Button: Button Link" editor_type="LINK">btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-contact-box">
+			<conditions>
+				<condition key="widgetType">rs-contact-box</condition>
+			</conditions>
+			<fields-in-item items_of="tabs">
+				<field type="Contact Box: label" editor_type="LINE">contact_label</field>
+				<field type="Contact Box: Email" editor_type="LINE">contact_label_email</field>
+				<field type="Contact Box: Phone" editor_type="LINE">contact_label_phone</field>
+				<field type="Contact Box: Content" editor_type="AREA">tab_content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rs-timecounter">
+			<conditions>
+				<condition key="widgetType">rs-timecounter</condition>
+			</conditions>
+			<fields>
+				<field type="RS Countdown: Year" editor_type="LINE">rs_circle_year</field>
+				<field type="RS Countdown: Month" editor_type="LINE">rs_circle_month</field>
+				<field type="RS Countdown: Day" editor_type="LINE">rs_circle_day</field>
+				<field type="RS Countdown: Circle width" editor_type="LINE">rs_circle_width</field>
+				<field type="RS Countdown: Background width" editor_type="LINE">rs_circle_bg_width</field>
+				<field type="RS Countdown: Number Size" editor_type="LINE">rs_number_size</field>
+				<field type="RS Countdown: Text Size'" editor_type="LINE">rs_text_size</field>
+			</fields>
+			<fields>
+				<field type="RS Countdown: Day" editor_type="LINE">rs_day_text</field>
+				<field type="RS Countdown: Hours" editor_type="LINE">rs_hours_text</field>
+				<field type="RS Countdown: Minutes" editor_type="LINE">rs_minutes_text</field>
+				<field type="RS Countdown: Seconds" editor_type="LINE">rs_seconds_text</field>
+			</fields>
+		</widget>
+		<widget name="rs-counter">
+			<conditions>
+				<condition key="widgetType">rs-counter</condition>
+			</conditions>
+			<fields>
+				<field type="RS Counter: Counter Number" editor_type="LINE">number</field>
+				<field type="RS Counter: Number Prefix" editor_type="LINE">suffix</field>
+				<field type="RS Counter: Number Suffix" editor_type="LINE">prefix</field>
+				<field type="RS Counter: Counter Title" editor_type="LINE">title</field>
+			</fields>
+		</widget>
+		<widget name="rs-cta">
+			<conditions>
+				<condition key="widgetType">rs-cta</condition>
+			</conditions>
+			<fields>
+				<field type="RS CTA: CTA Title" editor_type="LINE">cta_title</field>
+				<field type="RS CTA: Link" editor_type="LINK">cta_link</field>
+				<field type="RS CTA: CTA Description" editor_type="AREA">cta_desc</field>
+				<field type="RS CTA: Button Text" editor_type="LINE">btn_text</field>
+				<field type="RS CTA: Button Link" editor_type="LINK">btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-dual-button">
+			<conditions>
+				<condition key="widgetType">rs-dual-button</condition>
+			</conditions>
+			<fields>
+				<field type="RS Dual Button: Text" editor_type="LINE">left_button_text</field>
+				<field type="RS Dual Button: Link" editor_type="LINK">left_button_link</field>
+				<field type="RS Dual Button: Text" editor_type="LINE">button_connector_text</field>
+				<field type="RS Dual Button: Text" editor_type="LINE">right_button_text</field>
+				<field type="RS Dual Button: Link" editor_type="LINK">right_button_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-dual-heading">
+			<conditions>
+				<condition key="widgetType">rs-dual-heading</condition>
+			</conditions>
+			<fields>
+				<field type="Dual Color Heading: First Part Heading Text" editor_type="LINE">title</field>
+				<field type="Dual Color Heading: Second Part Heading Text" editor_type="LINE">color_title</field>
+				<field type="Dual Color Heading: Sub Heading Text" editor_type="LINE">subtitle</field>
+				<field type="Dual Color Heading: Description" editor_type="VISUAL">content</field>
+			</fields>
+		</widget>
+		<widget name="rs-faq">
+			<conditions>
+				<condition key="widgetType">rs-faq</condition>
+			</conditions>
+			<fields-in-item items_of="faqs">
+				<field type="RS FAQ: Title & Description" editor_type="LINE">faq_title</field>
+				<field type="RS FAQ: Content" editor_type="VISUAL">faq_content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rsfeatureslist">
+			<conditions>
+				<condition key="widgetType">rsfeatureslist</condition>
+			</conditions>
+			<fields-in-item items_of="faqs">
+				<field type="RS Features List: Text" editor_type="LINE">text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rsflipbox">
+			<conditions>
+				<condition key="widgetType">rsflipbox</condition>
+			</conditions>
+			<fields>
+				<field type="RS Flip Box: Title" editor_type="LINE">front_title</field>
+				<field type="RS Flip Box: Button Text" editor_type="LINE">front_btn_text</field>
+				<field type="RS Flip Box: Button Link" editor_type="LINE">front_btn_link</field>
+				<field type="RS Flip Box: Description" editor_type="AREA">front_desc</field>
+			</fields>
+			<fields>
+				<field type="RS Flip Box: Title" editor_type="LINE">back_title</field>
+				<field type="RS Flip Box: Button Text" editor_type="LINE">back_btn_text</field>
+				<field type="RS Flip Box: Title Link" editor_type="LINE">back_title_link</field>
+				<field type="RS Flip Box: Button Link" editor_type="AREA">back_btn_link</field>
+			</fields>
+		</widget>
+		<widget name="prelements-gradient-heading">
+			<conditions>
+				<condition key="widgetType">prelements-gradient-heading</condition>
+			</conditions>
+			<fields>
+				<field type="RS Gradient Heading: Sub Heading Text" editor_type="LINE">subtitle</field>
+				<field type="RS Gradient Heading: Gradient Text" editor_type="LINE">title</field>
+				<field type="RS Gradient Heading: Content" editor_type="LINE">content</field>
+				
+			</fields>
+		</widget>
+		<widget name="prelements-gradient-heading">
+			<conditions>
+				<condition key="widgetType">prelements-gradient-heading</condition>
+			</conditions>
+			<fields>
+				<field type="RS Gradient Heading: Sub Heading Text" editor_type="LINE">subtitle</field>
+				<field type="RS Gradient Heading: Gradient Text" editor_type="LINE">title</field>
+				<field type="RS Gradient Heading: Content" editor_type="VISUAL">content</field>
+				
+			</fields>
+		</widget>
+		<widget name="rs-image-hover-effect">
+			<conditions>
+				<condition key="widgetType">rs-image-hover-effect</condition>
+			</conditions>
+			<fields>
+				<field type="RS Image Hover Effect: Title" editor_type="LINE">image_title_prefix</field>
+				<field type="RS Image Hover Effect: Description Text" editor_type="AREA">image_description_text</field>
+				<field type="RS Image Hover Effect: Button Text" editor_type="LINE">image_btn_text</field>
+				<field type="RS Image Hover Effect: Button Link" editor_type="LINE">btn_link</field>
+				
+			</fields>
+		</widget>
+		<widget name="rs-logo">
+			<conditions>
+				<condition key="widgetType">rs-logo</condition>
+			</conditions>
+			<fields-in-item items_of="logo_list">
+				<field type="Logo Showcase: Link" editor_type="LINK">link</field>
+				<field type="Logo Showcase: Brand Name" editor_type="LINE">name</field>
+				<field type="Logo Showcase: Brand Description" editor_type="AREA">description</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rs-number-grid">
+			<conditions>
+				<condition key="widgetType">rs-number-grid</condition>
+			</conditions>
+			<fields>
+				<field type="Number Grid: Number Prefix" editor_type="LINE">number_prefix</field>
+				<field type="Number Grid: Number Title" editor_type="LINE">title</field>
+				<field type="Number Grid: Title Link" editor_type="LINK">title_link</field>
+				<field type="Number Grid: Number Text" editor_type="AREA">text</field>
+				<field type="Number Grid: Number Button Text" editor_type="LINE">number_btn_text</field>
+				<field type="Number Grid: Number Button Link" editor_type="LINK">number_btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rsprice">
+			<conditions>
+				<condition key="widgetType">rsprice</condition>
+			</conditions>
+			<fields>
+				<field type="RS Pricing Table: Title" editor_type="LINE">title</field>
+				<field type="RS Pricing Table: Custom Symbol" editor_type="LINE">currency_custom</field>
+				<field type="RS Pricing Table: Price" editor_type="LINE">price</field>
+				<field type="RS Pricing Table: Period" editor_type="LINE">period</field>
+				<field type="RS Pricing Table: Title" editor_type="AREA">features_title</field>
+			</fields>
+			<fields-in-item items_of="features_list">
+				<field type="RS Pricing Table: Text" editor_type="LINE">text</field>
+			</fields-in-item>
+			<fields>
+				<field type="RS Pricing Table: Button Text" editor_type="LINE">button_text</field>
+				<field type="RS Pricing Table: Badge Text" editor_type="LINE">badge_text</field>
+				<field type="RS Pricing Table: Link" editor_type="LINK">button_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-progress-pie">
+			<conditions>
+				<condition key="widgetType">rs-progress-pie</condition>
+			</conditions>
+			<fields>
+				<field type="RS Progress Pie: Title" editor_type="LINE">rs_progress_title</field>
+			</fields>
+		</widget>
+		<widget name="rs-service-slider">
+			<conditions>
+				<condition key="widgetType">rs-service-slider</condition>
+			</conditions>
+			
+			<fields-in-item items_of="logo_list">
+				<field type="RS Service Slider: Title" editor_type="LINE">name</field>
+				<field type="RS Service Slider: Description" editor_type="AREA">description</field>
+				<field type="RS Service Slider: Link" editor_type="AREA">link</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rs-static-product">
+			<conditions>
+				<condition key="widgetType">rs-static-product</condition>
+			</conditions>
+			<fields>
+				<field type="RS Static Product: Product Title" editor_type="LINE">title</field>
+				<field type="RS Static Product: Title Link" editor_type="LINK">title_link</field>
+				<field type="RS Static Product: Product Description" editor_type="AREA">text</field>
+				<field type="RS Static Product: Product Button Text" editor_type="LINE">services_btn_text</field>
+				<field type="RS Static Product: Button Link" editor_type="LINK">services_btn_link</field>
+			</fields>
+		</widget>
+		<widget name="rs-tab">
+			<conditions>
+				<condition key="widgetType">rs-tab</condition>
+			</conditions>
+			<fields-in-item items_of="tabs">
+				<field type="RS Tab: Title & Description" editor_type="LINE">tab_title</field>
+				<field type="RS Tab: Content" editor_type="VISUAL">tab_content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="RS-Table">
+			<conditions>
+				<condition key="widgetType">RS-Table</condition>
+			</conditions>
+			<fields-in-item items_of="table_body">
+				<field type="RS Table: Text" editor_type="LINE">text</field>
+				<field type="RS Table: colSpan Number" editor_type="LINE">colspannumber</field>
+				<field type="RS Table: rowSpan Number" editor_type="LINE">rowspannumber</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rsteam">
+			<conditions>
+				<condition key="widgetType">rsteam</condition>
+			</conditions>
+			<fields>
+				<field type="RS Team Grid: Name" editor_type="LINE">title</field>
+				<field type="RS Team Grid: Designation" editor_type="LINE">designation</field>
+				<field type="RS Team Grid: Phone" editor_type="LINE">phone</field>
+				<field type="RS Team Grid: Email Address" editor_type="LINE">email</field>
+				<field type="RS Team Grid: Short Bio" editor_type="AREA">bio</field>
+				<field type="RS Team Grid: Description" editor_type="AREA">popup_description</field>
+			</fields>
+			<fields-in-item items_of="social_icon_list">
+				<field type="RS Team Grid: Enter Link" editor_type="LINE">link</field>
+				<field type="RS Team Grid: colSpan Number" editor_type="LINE">colspannumber</field>
+				<field type="RS Team Grid: rowSpan Number" editor_type="LINE">rowspannumber</field>
+			</fields-in-item>
+		</widget>
+		<widget name="rs-tooltip">
+			<conditions>
+				<condition key="widgetType">rs-tooltip</condition>
+			</conditions>
+			<fields>
+				<field type="RS Tooltip: Tooltip Title" editor_type="LINE">tooltip_title</field>
+				<field type="RS Tooltip: Box Title" editor_type="LINE">title</field>
+				<field type="RS Tooltip: Box Description" editor_type="AREA">text</field>
+			</fields>
+		</widget>
+		<widget name="rs-twitter-timeline">
+			<conditions>
+				<condition key="widgetType">rs-twitter-timeline</condition>
+			</conditions>
+			<fields>
+				<field type="Twitter Feed: User Name" editor_type="LINE">username</field>
+			</fields>
+		</widget>
+		<widget name="rs-video">
+			<conditions>
+				<condition key="widgetType">rs-video</condition>
+			</conditions>
+			<fields>
+				<field type="RS Video: Enter Link Here" editor_type="LINE">video_link</field>
+				<field type="RS Video: Video Title" editor_type="LINE">rs_video_title</field>
+				<field type="RS Video: Video Subtitle" editor_type="LINE">rs_video_subtitle</field>
+				<field type="RS Video: Button Text" editor_type="LINE">rs_video_btn</field>
+				<field type="RS Video: Button Link Text" editor_type="LINE">rs_video_btn_link</field>
+				<field type="RS Video: Video Description" editor_type="AREA">description</field>
+			</fields>
+		</widget>
+		<widget name="rs-image-comparision">
+			<conditions>
+				<condition key="widgetType">rs-image-comparision</condition>
+			</conditions>
+			<fields>
+				<field type="Image Comparision: Before Text" editor_type="LINE">text_before</field>
+				<field type="Image Comparision: After Text" editor_type="LINE">text_after</field>
+			</fields>
+		</widget>
+		<widget name="rs-courses-search">
+			<conditions>
+				<condition key="widgetType">rs-courses-search</condition>
+			</conditions>
+			<fields>
+				<field type="RS Courses Search: Placeholder Text" editor_type="LINE">pleceholder_text</field>
+			</fields>
+		</widget>
+		<widget name="rsevent-filter">
+			<conditions>
+				<condition key="widgetType">rsevent-filter</condition>
+			</conditions>
+			<fields>
+				<field type="RS Events Filter: Filter Default Title" editor_type="LINE">filter_title</field>
+			</fields>
+		</widget>
+		<widget name="rs-fancy-text">
+			<conditions>
+				<condition key="widgetType">rs-fancy-text</condition>
+			</conditions>
+			<fields>
+				<field type="RS Fancy Icon Text: Title" editor_type="LINE">title</field>
+				<field type="RS Fancy Icon Text: Prefix Text" editor_type="LINE">title_prefix_text</field>
+				<field type="RS Fancy Icon Text: Button Text" editor_type="LINE">services_btn_text</field>
+				<field type="RS Fancy Icon Text: Title Link" editor_type="LINK">title_link</field>
+				<field type="RS Fancy Icon Text: Button Link" editor_type="LINK">services_btn_link</field>
+				<field type="RS Fancy Icon Text: Description" editor_type="AREA">text</field>
+			</fields>
+		</widget>
+		<widget name="rs-notice">
+			<conditions>
+				<condition key="widgetType">rs-notice</condition>
+			</conditions>
+			<fields>
+				<field type="RS Latest Notice: Heading Text" editor_type="LINE">notice_heading</field>
+			</fields>
+		</widget>
+	</elementor-widgets>
+</wpml-config>
